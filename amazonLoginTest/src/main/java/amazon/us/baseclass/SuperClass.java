@@ -1,0 +1,17 @@
+package amazon.us.baseclass;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SuperClass {
+
+	public static WebDriver driver;
+	
+	public static void initialization() {
+		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");	
+		driver = new ChromeDriver();
+		
+	}
+	
+	
+}
