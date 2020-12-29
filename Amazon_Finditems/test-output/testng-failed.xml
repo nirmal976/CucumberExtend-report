@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite]">
+  <test thread-count="5" name="Edge (failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.usa.testNg.CrossBrowsingTesting">
+        <methods>
+          <include name="browserTesting"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.usa.testNg.CrossBrowsingTesting -->
+    </classes>
+  </test> <!-- Edge (failed) -->
+</suite> <!-- Failed suite [Test suite] -->
