@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+      <class name="zoopla.uk.stepdefination.TestNgClass_Demo">
+        <test-method status="PASS" signature="getInformation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getInformation" is-config="true" duration-ms="19" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInformation -->
+        <test-method status="PASS" signature="getName()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getName" duration-ms="6" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getName -->
+        <test-method status="PASS" signature="getValidation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getValidation" is-config="true" duration-ms="0" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidation -->
+        <test-method status="PASS" signature="getInformation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getInformation" is-config="true" duration-ms="0" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInformation -->
+        <test-method status="PASS" signature="getSpouse()[pri:1, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getSpouse" duration-ms="1" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpouse -->
+        <test-method status="PASS" signature="getValidation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getValidation" is-config="true" duration-ms="0" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidation -->
+        <test-method status="PASS" signature="getInformation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getInformation" is-config="true" duration-ms="0" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInformation -->
+        <test-method status="PASS" signature="getChild()[pri:2, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getChild" duration-ms="1" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChild -->
+        <test-method status="PASS" signature="getChild2()[pri:3, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getChild2" duration-ms="2" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getChild2 -->
+        <test-method status="PASS" signature="getValidation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getValidation" is-config="true" duration-ms="0" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidation -->
+        <test-method status="PASS" signature="getInformation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getInformation" is-config="true" duration-ms="0" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInformation -->
+        <test-method status="PASS" signature="getValidation()[pri:0, instance:zoopla.uk.stepdefination.TestNgClass_Demo@4988d8b8]" name="getValidation" is-config="true" duration-ms="1" started-at="2020-11-10T04:38:52Z" finished-at="2020-11-10T04:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValidation -->
+      </class> <!-- zoopla.uk.stepdefination.TestNgClass_Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
