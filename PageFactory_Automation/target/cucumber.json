@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Login with data table",
+        "description": "",
+        "id": "login-function-validations;login-with-data-table;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3600038500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a user i can open any browser",
+            "match": {
+              "location": "OutLineTestStep.as_a_user_i_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25993860900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "As a user i can enter the  \"https://admin-demo.nopcommerce.com/\" and go to the login features",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 28
+                }
+              ],
+              "location": "OutLineTestStep.as_a_user_i_can_enter_the_and_go_to_the_login_features(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311500,
+              "error_message": "java.lang.NullPointerException\r\n\tat zoopla.uk.stepdefination.OutLineTestStep.as_a_user_i_can_enter_as_and_password(OutLineTestStep.java:30)\r\n\tat ✽.When As a user i can enter as \"admin@yourstore.com\" and password \"admin\"(ScenarioOutlneTest.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "As a user i can enter as \"admin@yourstore.com\" and password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 26
+                },
+                {
+                  "val": "admin",
+                  "offset": 61
+                }
+              ],
+              "location": "OutLineTestStep.as_a_user_i_can_enter_as_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "clik on login",
+            "match": {
+              "location": "OutLineTestStep.clik_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Homepage title should be \"Dashboard/nonCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard/nonCommerce administration",
+                  "offset": 26
+                }
+              ],
+              "location": "OutLineTestStep.homepage_title_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "As a user i can click on Logout Link",
+            "match": {
+              "location": "OutLineTestStep.as_a_user_i_can_click_on_Logout_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Login page title should be \"Your store.Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your store.Login",
+                  "offset": 28
+                }
+              ],
+              "location": "OutLineTestStep.login_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "close the browser",
+            "match": {
+              "location": "OutLineTestStep.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login function validations",
+    "description": "",
+    "id": "login-function-validations",
+    "keyword": "Feature",
+    "uri": "ScenarioOutlneTest.feature"
+  }
+]
